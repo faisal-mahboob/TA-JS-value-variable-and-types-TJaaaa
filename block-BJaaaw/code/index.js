@@ -7,9 +7,47 @@
   - `if` the number is odd print the message "number is odd"
 */
 
+/*let inputNum = prompt("Enter a number");
+switch (true) {
+  case (inputNum % 2 == 0):
+    alert("Even");
+    break;
+  case (inputNum % 2 == 1):
+    alert("odd");
+    break;
+  default:
+    alert("Number not entered");
+}
+*/
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
+/*let num1 = prompt("Enter Number 1");
+let num2 = prompt("Enter Number 2");
+switch (true) {
+  case num1 > num2:
+    alert(`${num1} is the max value`);
+    break;
+  case num2 > num1:
+    alert(`${num2} is the max value`);
+    break;
+  default:
+    alert("Not a number");
+}
+*/
+
 // 3. Convert the above code using`?` terniary operator
+/*
+let num1 = prompt("Enter Number 1");
+let num2 = prompt("Enter Number 2");
+
+let maxValue=num1>num2?true:false;
+if (maxValue==true){
+  alert(`${num1} is the max value`);
+}
+else {
+  alert(`${num2} is the max value`);
+}
+*/
 
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
@@ -18,13 +56,77 @@
   - `if` house name is "lannister" then print the message " A lannister always pays his debt"
   - `else` print the message " All men must die"
 */
+/*
+let houseName=prompt("What is your house name");
+if (houseName=="stark"){
+  alert("Winter is coming");
+}
+else if(houseName=="lannister"){
+  alert("A lannister always pays his debt");
+}
+else{
+  alert("All men must be as they wish");
+}
+*/
 
 // 5. Convert the above code using`?` terniary operator
 
-// Switch
+/*let houseName = prompt("What is your house name?");
+
+if (houseName == "stark"?true:false){
+  alert("winter is coming");
+}
+else if (houseName=="lannister"?true:false){
+  alert("A lannister always pays his debt");
+}
+else {
+  alert("all men must live");
+}*/
+
 
 // 6. Write a program that takes the number of the month(1 - 12) and alert number of days in the month.
 
+let numberMonth = prompt("what number of the month is it");
+switch (true) {
+  case numberMonth==1?true:false:
+    alert("This month has 31 days");
+    break;
+  case numberMonth==2?true:false:
+    alert("This month has 28 days");
+    break;
+  case numberMonth==3?true:false:
+    alert("This month has 31 days");
+    break;
+  case numberMonth==4?true:false:
+    alert("This month has 30 days");
+    break;
+  case numberMonth==5?true:false:
+    alert("This month has 31 days");
+    break;
+  case numberMonth==6?true:false:
+    alert("This month has 30 days");
+    break;
+  case numberMonth==7?true:false:
+    alert("This month has 31 days");
+    break;
+  case numberMonth==8?true:false:
+    alert("This month has 31 days");
+    break;
+  case numberMonth==9?true:false:
+    alert("This month has 30 days");
+    break;
+  case numberMonth==10?true:false:
+    alert("This month has 31 days");
+    break;
+  case numberMonth==11?true:false:
+    alert("This month has 30 days");
+    break;
+  case numberMonth==12?true:false:
+    alert("This month has 31 days");
+    break;
+  default:
+    alert("not correct number");
+}
 /* 7.
 - Write a program that take the salery of the user using prompt and alert the in -hand amount.You will find out the in -hand amount by deducting the tax amoun from salery.Conditions are given below.
   - `Salary <= 20000` tax is 10 %
