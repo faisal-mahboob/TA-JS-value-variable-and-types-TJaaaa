@@ -1,17 +1,18 @@
-/* 1. Do the following
+/*1. Do the following*/
 
-1. Declare a variable `user` and take the name using `prompt`. Display the value stored in `user` using `alert`.
-2. Now copy the value of `user` into a new variable named `userName`. Log the value of both `user` and `userName` using `console.log`.
-3. Declare variable `age` and `isLearning` with value `22` and `true` in the same line. hint: declaring multiplemvariable in one line.
-4. Now change the value of `user` to `John` and log the value of both `user` and `userName`.
-*/
-
+/*1. Declare a variable `user` and take the name using `prompt`. Display the value stored in `user` using `alert`.*/
 var user = prompt("Enter Name");
 alert(user);
+
+/*2. Now copy the value of `user` into a new variable named `userName`. Log the value of both `user` and `userName` using `console.log`.*/
 var userName = user;
 console.log(user);
 console.log(userName);
+
+/*3. Declare variable `age` and `isLearning` with value `22` and `true` in the same line. hint: declaring multiplemvariable in one line.*/
 let age = 22, isLearning = true;
+
+/*4. Now change the value of `user` to `John` and log the value of both `user` and `userName`.*/
 user = "John";
 console.log(user);
 console.log(userName);
