@@ -6,12 +6,12 @@
 4. Now change the value of `user` to `John` and log the value of both `user` and `userName`.
 */
 
-var user = prompt ("Enter Name");
+var user = prompt("Enter Name");
 alert(user);
 var userName = user;
 console.log(user);
 console.log(userName);
-var age = 22; var isLearning = true;
+let age = 22, isLearning = true;
 user = "John";
 console.log(user);
 console.log(userName);
@@ -20,10 +20,10 @@ console.log(userName);
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
 */
 
-let numA = parseInt( prompt ("Enter Num1") );
-let numB = parseInt( prompt ("Enter Num2") );
+let numA = parseInt( prompt("Enter Num1") );
+let numB = parseInt( prompt("Enter Num2") );
 let sum = numA + numB;
-alert (sum); 
+alert(sum); 
 
 // Loops
 
