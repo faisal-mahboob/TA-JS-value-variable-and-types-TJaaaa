@@ -29,7 +29,7 @@ alert (sum);
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; j=j+2) console.log(j); */
+for (let j = 0; j <= 10; j=j+2) console.log(j);
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
 for(let i=9;i>=1;i=i-2) console.log(i); 
