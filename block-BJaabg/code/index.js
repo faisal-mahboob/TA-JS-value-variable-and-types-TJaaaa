@@ -14,5 +14,29 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
+let phone=0
+let access=0
+let one_phone=(0.08*99.99)+99.99
+while (bank_balance>=one_phone){
+    phone=phone+1
+    bank_balance=bank_balance-one_phone    
+}
+let limit=200
+let a=phone
+while (limit>((0.08*9.99)+9.99)){
+    access=access+1
+    limit=limit-((0.08*9.99)+9.99)
+}
+
+let access_cost=access*((0.08*9.99)+9.99)
+
+let purchased_amount=phone*((0.08*99.99)+99.99)+access_cost
+let rounded=purchased_amount.toFixed(2)
+console.log('$'+String(rounded))
+
+
+if (bank_balance-access_cost<0){
+    console.log("We can't buy it")
+}
 
 // ⛑ Answer of the above will `$334.76`.
